@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Environment and secrets
+.env
+.env.*
+*.key
+secrets.json
+config.local.*
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Private production data
+OpenToWorkFile*.xlsx
+Candidates_PDF/
+svt_jobs/
+svt_out/
+otw_out/
+matches_out/
+matches_registry_jobs.xlsx
+matches_registry_candidates.xlsx
+matches_registry.csv
+matches_discipline_list.xlsx
+Matching_Roles.xlsx
+Districts_v2.xlsx
+live_matches.xlsx
+diagnostics.xlsx
+discipline_warnings_*.xlsx
+
+# Temporary Excel files
+~$*.xlsx
